@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <add-movie/>
-    <movies-list/>
+    <div style="padding: 0 25rem;">
+      <add-movie />
+      <MoviesList />
+    </div>
   </div>
 </template>
 
@@ -11,12 +12,12 @@ import MoviesList from "./components/MoviesList.vue";
 import AddMovie from "./components/AddMovie.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     MoviesList,
     AddMovie
   }
-}
+};
 </script>
 
 <style>
