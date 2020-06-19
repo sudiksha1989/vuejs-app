@@ -1,4 +1,4 @@
-# vuejs_app
+# vuejs-test-app
 
 ## Project setup
 ```
